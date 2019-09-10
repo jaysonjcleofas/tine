@@ -1,0 +1,110 @@
+body {
+    position: relative;
+    font-family: Roboto, sans-serif;
+    font: 15px;
+    font-weight: 400;
+    color: #5c5c5c;
+}
+
+html,
+body,
+header,
+.carousel {
+    height: 100%;
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #5c5c5c !important;
+    }
+}
+
+.carousel,
+.carousel .carousel-inner,
+.carousel .carousel-inner .active,
+.carousel .carousel-inner .carousel-item,
+.view,
+body,
+html {
+    height: 100%
+}
+
+.top-nav-collapse {
+    background-color: #5c5c5c
+}
+.navbar:not(.top-nav-collapse) {
+    box-shadow: none;
+}
+footer.page-footer .footer-copyright {
+    color: black;
+    background-color: white;
+}
+
+@media only screen and (max-width:768px) {
+    .navbar {
+        background-color: #5c5c5c
+    }
+}
+
+.vew,
+.time-place {
+    height: 400px !important;
+    background: url(../images/DSCF4482.jpg) no-repeat center fixed;
+    background-size: 100%;
+    background-position-x: right;
+    background-position-y: center;
+    color: white
+}
+
+.dotted-scrollspy {
+    display: block;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, .55);
+    -webkit-border-radius: 2px 0 0 2px;
+    -moz-border-radius: 2px 0 0 2px;
+    -ms-border-radius: 2px 0 0 2px;
+    -o-border-radius: 2px 0 0 2px;
+    border-radius: 2px 0 0 2px;
+    z-index: 9999
+}
+
+.dotted-scrollspy li {
+    display: block;
+    padding: 0 1px
+}
+
+.dotted-scrollspy li:first-child {
+    padding-top: 10px
+}
+
+.dotted-scrollspy li:last-child {
+    padding-bottom: 10px
+}
+
+.dotted-scrollspy li a span {
+    display: block;
+    background-color: rgba(255, 255, 255, .54);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%
+}
+
+.min-chart,
+.percent {
+    display: inline-block
+}
+
+.dotted-scrollspy li a.active span {
+    background: #fff
+}
+
+.section-heading{
+    font-weight: 700;
+    text-transform: uppercase;
+}

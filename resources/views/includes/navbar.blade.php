@@ -1,9 +1,9 @@
 <!-- Navbar -->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar smooth-scroll" id="">
     <div class="container">
 
         <!-- Brand -->
-        <a class="navbar-brand" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
+        <a class="navbar-brand" href="#Home">
             <strong>LegaliTINE</strong>
         </a>
 
@@ -19,24 +19,16 @@
             <!-- Left -->
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home
-                        {{-- <span class="sr-only">(current)</span> --}}
-                    </a>
+                    <a class="nav-link" href="#FromTheBirthdayGirl">From The Birthday Girl</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Time & Place</a>
+                    <a class="nav-link" href="#TimePlace">Time & Place</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">From The Birthday Girl</a>
+                    <a class="nav-link" href="#YourResponse">Your Response</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Directions</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Your Response</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Gallery</a>
+                    <a class="nav-link" href="#Gallery">Gallery</a>
                 </li>
             </ul>
 

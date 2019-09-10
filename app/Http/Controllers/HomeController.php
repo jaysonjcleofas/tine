@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Response;
 
 class HomeController extends Controller
 {
@@ -23,6 +24,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $attends = Response::where('response', 'yes')->count();
+        $notattends = Response::where('response', 'no')->count();
+        return view('home', compact('attends', 'notattends'));
+        
     }
 }

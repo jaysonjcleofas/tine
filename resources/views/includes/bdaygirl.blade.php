@@ -1,25 +1,18 @@
-<!--Section: Main info-->
-<section class="mt-5 wow fadeIn">
-        <h3 class="h3 text-center mb-5">From the Birthday Girl</h3>
-        <!--Grid row-->
-        <div class="row">
+<section class="py-5 wow fadeIn section" id="FromTheBirthdayGirl">
+    <h3 class="h3 text-center mb-5 mt-3 wow fadeIn section-heading">From the Birthday Girl</h3>
 
-          <!--Grid column-->
-          <div class="col-md-12 mb-4 text-center">
+    <div class="row">
 
-            <img src="{{ asset('images/69966224_158528148569668_3695479639179788288_n.jpg') }}" class="img-fluid z-depth-1-half" style="height:410px;" alt="">
-            <p class="mt-3">Hi everyone! I hope you can come to by birthday party, I can’t wait to get all my friends together! 
-            <br>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis aliquet velit.</p>
-          </div>
-          <!--Grid column-->
+        <div class="col-md-12 mb-4 text-center wow fadeIn">
 
-          <!--Grid column-->
-
-          <!--Grid column-->
-
+            <img src="{{ asset('images/DSCF5394.jpg') }}" class="img-fluid z-depth-1-half"
+                style="max-height:410px; width:auto;" alt="">
+            <p class="mt-4">Hi everyone! I hope you can come to my 18th birthday, I can’t wait to get all my friends
+                together!
+                <br>
+                Your presence in my birthday will make it more special. Please come to bless us.</p>
         </div>
-        <!--Grid row-->
 
-      </section>
-      <!--Section: Main info-->
+    </div>
+
+</section>
